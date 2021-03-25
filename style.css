@@ -1,0 +1,67 @@
+.img_work{
+    width: 100%;
+    height: auto;
+    margin: 15px 0px;
+    background-color: white;
+  }
+  .img_work img{
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+  .img_work img:hover{
+    opacity: 0.6;
+    transition-duration: 0.3s;  
+  }
+.img_work a{
+    display: block;
+    min-height: 100%;
+}
+.img_work h3{
+    position: absolute;
+    bottom: 0px;
+    color: rgb(27, 27, 27);
+    padding: 45px 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+.img_work p{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(27, 27, 27);
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 40px;
+}
+.Work_contens{
+    background-color:#751fff;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.8) 100px,
+      transparent 0px,
+      transparent 200px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5) 100px,
+      transparent 0px,
+      transparent 200px
+    );
+}
+.Top{
+    padding: 85px 0px 60px 0px;
+}
+.design{
+    width: 500px;
+    height: auto;
+    padding: 85px 0px 60px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
